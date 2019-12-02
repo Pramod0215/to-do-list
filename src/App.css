@@ -1,0 +1,69 @@
+
+.App {
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  
+  
+  border: 1px solid black;
+
+  
+
+}
+.App-header{
+  display: flex;
+  flex-direction: column;
+  
+  border: brown 2px solid;
+  width: 40%;
+  height: 100%;
+  background-color: burlywood;
+}
+
+.header-content{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height:20%;
+  border: 1px solid green;
+  margin-top: 100px;
+  background-color: lightblue;
+  align-items: center;
+  margin-left: 70px;
+}
+
+.textarea-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.textarea{
+  width: 400px;
+  height: 100px;
+}
+
+.button{
+  border:none;
+  margin-left:20px ;
+  height: 50px;
+  width: 100px;
+  background-color:green;
+  font: bold;
+  color: aliceblue;
+  
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+/* .text-container{
+  border: 1px solid black;
+  width: 50%;
+} */
+
+.strike:checked+ div{
+  text-decoration: line-through;
+}
